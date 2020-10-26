@@ -1,0 +1,327 @@
+input[type=text], select, textarea {
+
+  
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #33ccff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #00ff00;
+}
+@media  (max-width: 768px){
+  input[type=text],input[type=tel], select{
+    width: 100%;
+    height: 30px; /* Full width */
+    padding: 3px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box;  Make sure that padding and width stays in place 
+    margin-top: 3px; /* Add a top margin */
+    margin-bottom: 4px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+  }
+
+}
+
+/* Add a background color and some padding around the form */
+.photo {
+  max-width: 50%;
+  max-height: 50%;
+ /* border-radius: 2px;
+  background-color: #f2f2f2;
+  padding: 10px;*/
+}
+
+.container1{
+
+  margin-top: 100px;
+  margin-right: 200px;
+  margin-left: 200px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+ .logo-image{
+    width: 300px;
+    height: 50px;
+    /*border-radius: 50%;*/
+    /*overflow: hidden;*/
+    margin-top: -6px;
+}
+
+#image{
+  float: left;
+  padding: 0px 20px 20px 20px;
+  margin-top: 20px;
+}
+p{
+  padding: 0px;
+  margin: 0px
+}
+
+ #footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
+.poll-result .wrapper {
+      display: flex;
+      flex-flow: column;
+}
+.poll-result .wrapper .poll-question {
+      width: 50%;
+      padding-bottom: 5px;
+}
+.poll-result .wrapper .poll-question p {
+      margin: 0;
+      padding: 5px 0;
+}
+.poll-result .wrapper .poll-question p span {
+      font-size: 14px;
+}
+.poll-result .wrapper .poll-question .result-bar {
+      display: flex;
+      height: 25px;
+      min-width: 5%;
+      background-color: #38b673;
+      border-radius: 5px;
+      font-size: 14px;
+      color: #FFFFFF;
+      justify-content: center;
+      align-items: center;
+}
+
+#daily{
+  width: auto;
+  height:auto; 
+  background-color: white;
+  /*border: 1px solid;*/
+
+  padding: 10px;
+  
+  border-radius: 15px;
+  transition: 0.3s; 
+  
+}
+
+/*style="width: 100%;height:auto;background-color: #f1f1f1;border-radius: 15px;border-width:15px;   border:solid;border-color: white;"*/
+
+#poll{
+    width: auto;
+  height:auto; 
+   background-color: white;
+  /*border: 1px solid;*/
+ 
+  padding: 10px;
+   
+  border-radius: 15px; 
+  transition: 0.3s;   
+
+}
+#recent{
+    width: auto;
+  height:auto; 
+   background-color: white;
+  /*border: 1px solid;*/
+  padding: 10px;
+  border-radius: 15px;   
+  transition: 0.3s; 
+
+}
+
+#daily:hover{
+/* box-shadow: 5px 10px 5px #cdcdcd ;*/
+ box-shadow: 0 0 20px 0 rgba(0,0,0,0.3); 
+  transform: translateY(-20px);
+
+}
+
+#poll:hover{
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);  
+  transform: translateY(-20px);
+
+}
+
+#recent:hover{
+  /*box-shadow: 5px 10px 5px #cdcdcd;*/
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3); 
+  transform: translateY(-20px);
+
+}
+#recent{
+    width: auto;
+  height:auto; 
+   background-color: white;
+  /*border: 1px solid;*/
+  padding: 10px;
+  border-radius: 15px;   
+  transition: 0.3s; 
+
+}
+.pollbox{
+   width: auto;
+  height:auto; 
+   background-color: white;
+  /*border: 1px solid;*/
+  padding: 10px;
+  border-radius: 15px;   
+  transition: 0.3s; 
+
+}
+.pollbox:hover{
+  /*box-shadow: 5px 10px 5px #cdcdcd;*/
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3); 
+  transform: translateY(-20px);
+
+}
+#discussionbox{
+  width: auto;
+  height:auto; 
+   background-color: white;
+  /*border: 1px solid;*/
+  padding: 10px;
+  border-radius: 15px;   
+  transition: 0.3s; 
+}
+
+#discussionbox:hover{
+  /*box-shadow: 5px 10px 5px #cdcdcd;*/
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3); 
+  transform: translateY(-20px);
+
+}
+
+#disclaimer{
+  width: auto;
+  height:auto; 
+   background-color: white;
+  /*border: 1px solid;*/
+  padding: 10px;
+  border-radius: 15px;   
+  transition: 0.3s;
+}
+
+#disclaimer:hover{
+  /*box-shadow: 5px 10px 5px #cdcdcd;*/
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3); 
+  transform: translateY(-20px);
+
+}
+.category{
+
+   width: auto;
+  height:auto; 
+   background-color: white;
+  /*border: 1px solid;*/
+  padding: 10px;
+  border-radius: 15px;   
+  transition: 0.3s;
+}
+.category:hover{
+  /*box-shadow: 5px 10px 5px #cdcdcd;*/
+  box-shadow: 0 0 20px 0 rgba(255,255,255,0.5);
+  filter: invert(100%); 
+  transform: translateY(-20px);
+
+}
+
+.newsbox{
+  width: auto;
+  height:auto;
+  padding: 5px;
+  border-radius: 15px;   
+  transition: 0.3s;
+}
+.newsbox:hover{
+  /*box-shadow: 5px 10px 5px #cdcdcd;*/
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
+  
+  transform: translateY(-20px);
+
+}
+#images{
+  margin: 10px;
+  float: left;
+}
+
+.logoimage{
+  position: relative;
+  width: auto;
+  height: auto;
+
+}
+a #logoimg:last-child {
+  display: none;  
+}
+a:hover #logoimg:last-child {
+  display: block;  
+}
+a:hover #logoimg:first-child {
+  display: none;  
+}
+
+.site-body{
+  margin-top: 50px;
+  background-image: url("../icon/3.jpg");
+
+  min-height: 500px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+#container_form{
+  background-color: rgba(0,0,0,0.5);
+  min-height: auto;
+}
+#container_form label{
+  color: white;
+}
+#apply_button{
+  background-color: black;
+  border-radius: 30px;
+}
+#apply_button:hover{
+   border: 1px solid;
+  border-color:rgb(0,255,0);
+  box-shadow: 0 0 30px 0 rgba(255,255,255,0.7); 
+  transform: translateY(-2px);
+}
+@media  (max-width: 768px) {
+  .site-body{
+  margin-top: 0px;
+}
+}
+#apply_button:hover{
+  border: 1px solid;
+  border-color:rgb(0,255,0);
+  box-shadow: 0 0 30px 0 rgba(255,255,255,0.7); 
+  transform: translateY(-2px);
+}
+}
+
